@@ -75,6 +75,6 @@ pipeline {
         success{
             echo 'I will say Hello when pipeline is success'
         }
-    }
+     
     }
 }
