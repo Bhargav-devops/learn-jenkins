@@ -1,13 +1,13 @@
 pipeline {
-    agent {
-    node {
-        label 'Agent-1'
+        agent {
+        node {
+            label 'Agent-1'
 
+        }
     }
-}
- environment { 
-        GREETING = 'Hello Jenkins'
-    }
+    environment { 
+            GREETING = 'Hello Jenkins'
+        }
     options {
         timeout(time: 1, unit: 'HOURS')
         disableConcurrentBuilds()
